@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center">Soccer Team Randomizer</h2>
+      </div> 
+      <div class="row">
+      	<div class="col-md-6">
+      		<table class="table">
+		        <tbody>
+		            <tr>
+		             <td><input id="playerName" type="text" class="form-control" placeholder="Enter player"></td>
+		             <td><button id="addPlayer" class="btn btn-primary btn-block">Add</button></td>
+		            </tr>
+		        </tbody>
+		    	</table>
+		    	<ul class="list-group" id="listOfPlayers">
+        		
+      		</ul>
+      	</div>
+      	<div class="col-md-6">
+      		<table class="table">
+		        <tbody>
+		          <tr>
+		            <td><input id="teamNumber" type="number" class="form-control" value="2"></td>
+		            <td><button id="randomize" class="btn btn-default btn-block">Randomize</button></td>
+		          </tr>
+		        </tbody>
+		      </table>
+		      <div class="row" id="listOfTeams">
+		      	
+		      </div>
+      	</div>
+      </div>
+    </div>
+  </div>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+ </body>
+</html>
