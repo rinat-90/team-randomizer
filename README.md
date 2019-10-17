@@ -1,2 +1,2 @@
 # team-randomizer
-DEMO: https://team-randomizer.ribroff.now.sh/
+DEMO: https://team-randomizer-kcici2ihq.now.sh/
